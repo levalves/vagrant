@@ -1,0 +1,8 @@
+- name: Upgrade de todos os pacotes de S.O
+  yum:
+    name: '*'
+    state: latest
+- name: Instalacao do GIT Client
+  yum:
+    name: git
+    state: latest
